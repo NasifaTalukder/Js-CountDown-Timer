@@ -1,0 +1,93 @@
+*body{
+    padding: 0;
+    margin: 0;
+}
+.clock_wrapper {
+    height: 240px;
+    width: 540px;
+    background: rgb(218, 214, 11);
+    position: relative;
+    border: 2px dotted black;
+    margin: auto;
+}
+.heading h1 {
+    padding-top: 20px;
+    padding-left: 122px;
+    color: brown;
+}
+.mainClock {
+    height: 90px;
+    width: 440px;
+    margin-left: 62px;
+    background: rgb(13, 227, 145);
+    position: absolute;
+    margin-top: 8px;
+}
+.mainClock_cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dayWrap {
+    width: 90px;
+    height: 90px;
+    background:rgb(32, 199, 225);
+    border: 2px solid #fff;
+}
+
+.dayWrap h2 {
+    margin-left: 20px;
+    margin-top: -18px;
+    color: #fff;
+}
+.dayWrap p {
+    margin-left: 30px;
+    font-size: 22px;
+}
+.hourWrap {
+    width: 100px;
+    height: 90px;
+    background: rgb(153, 73, 227);
+    border: 2px solid #fff;
+}
+
+.hourWrap h2 {
+    margin-left: 20px;
+    margin-top: -18px;
+    color: #fff;
+}
+.hourWrap p {
+    margin-left: 38px;
+    font-size: 22px;
+}
+
+.minWrap {
+    width: 120px;
+    height: 90px;
+    background: rgb(32, 199, 225);
+    border: 2px solid #fff;
+}
+
+.minWrap h2 {
+    margin-left: 20px;
+    margin-top: -18px;
+    color: #fff;
+}
+.minWrap p {
+    margin-left: 30px;
+    font-size: 22px;
+}
+.secWrap{
+    height: 90px;
+    width: 115px;
+    background-color: rgb(153, 73, 227);
+    border: 2px solid #fff;
+}
+.secWrap h2 {
+    margin-left: 20px;
+    margin-top: -18px;
+    color: #fff;
+}
+.secWrap p {
+    margin-left: 18px;
+    font-size: 22px;
+}
